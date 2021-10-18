@@ -1,0 +1,327 @@
+
+[SUB0 FIGHTING STANCE]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 80, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+
+[SUB0 FIGHTING STANCE 2]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 200, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+
+[SUB0 Blocking]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Ducking] #inverted
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Walking]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 20, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Jumping]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Barrel]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 50, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Victory POSe]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 200, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Right High Punch]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Left High Punch]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Short High Punch]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 120, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Right Punch] # Animation not happens
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 130, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Left Punch]	
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 130, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Throwing]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 110, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Kicking 1]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 110, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+	
+[SUB0 Kicking 2]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 110, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Gonatia]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 130, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Rouleta Kicking]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Sweep Kicking] # ypsos lathos
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Uppercut]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 120, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Down Body High Kicking] #ypsos problem
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Jumping Punch]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Jumping High Kicking]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Jumping Low Kicking]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 180, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Being Hit On Face]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Being Hit On Chest]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Being Hit On Chest And Moving Back]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, -7, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Being Hit Down]# ypsos problem
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 120, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Dizzy]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Being Hit On Balls]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Jesus Christ]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Being Hit And Lie Back Down] #ypsos problem
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Being Hit And Lie Down For The Camera]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Getting Up] #THELEI KAI EPANAFORA
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 120, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Getting Up For The Camera] #ypsos
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 130, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Freeze Ball Move]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 Ice Touching Opponent]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 SUB0 Special Move Tacklin]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SUB0 SUB0 Fatality Freeze Destruction] #ypsos11111
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+
+#####################SCORPION#############################
+
+
+[SCORPION Fighting STANCE]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 80, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  FIGHTING STANCE 2]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 200, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+
+[SCORPION  Blocking]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Ducking] #inverted
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Walking]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 20, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Jumping]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Barrel]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 50, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Victory POSe]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 200, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Right High Punch]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Left High Punch]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Short High Punch]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 120, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Right Punch] # Animation not happens
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 130, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Left Punch]	
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 130, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Throwing]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 110, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Kicking 1]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 110, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+	
+[SCORPION  Kicking 2]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 110, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Gonatia]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 130, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Rouleta Kicking]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Sweep Kicking] # ypsos lathos
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Uppercut]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 120, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Down Body High Kicking] #ypsos problem
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Jumping Punch]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Jumping High Kicking]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Jumping Low Kicking]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 180, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Being Hit On Face]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Being Hit On Chest]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Being Hit On Chest And Moving Back]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, -7, 0, 100, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Being Hit Down]# ypsos problem
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 120, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Dizzy]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Being Hit On Balls]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Jesus Christ]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Being Hit And Lie Back Down] #ypsos problem
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Being Hit And Lie Down For The Camera]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 140, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Getting Up] #THELEI KAI EPANAFORA
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 120, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION  Getting Up For The Camera] #ypsos
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 130, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION Move To Throw Spear]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION Spear]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 90, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION Strait And Waving Rope]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 90, 0, 150, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION Fatality Move] #YPSOSSSS
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 260, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION Fatality Fire]
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 8, 0, 120, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();
+
+[SCORPION Fatality Skeleton]#ypsossss
+FrameRangeAnimation* anim = new FrameRangeAnimation(0, film->GetTotalFrames()-1, 0, 0, 160, false, 2);
+FrameRangeAnimator *animator = new FrameRangeAnimator();

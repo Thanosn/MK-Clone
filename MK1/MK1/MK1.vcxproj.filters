@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Animators">
+      <UniqueIdentifier>{f50899bb-9dfa-4e72-b393-c2ef17bafff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animators">
+      <UniqueIdentifier>{7e82c1dc-a426-477b-9e37-a549637f5330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animations">
+      <UniqueIdentifier>{3bef27a8-ebe2-41fc-b14c-2fe1b85b6781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Inputs">
+      <UniqueIdentifier>{02ca5c18-27d5-4d48-a13e-1f5c619026a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameLogic">
+      <UniqueIdentifier>{5f532fc7-e352-4b0c-9d22-ee71dad86e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sprites">
+      <UniqueIdentifier>{4c77e669-b8c9-4d14-b819-681650320953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animations">
+      <UniqueIdentifier>{4dfa1a5c-c041-4646-a234-23d094553adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Inputs">
+      <UniqueIdentifier>{63489aa7-26cb-4022-bf1b-ae03285c22fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLogic">
+      <UniqueIdentifier>{27af632e-fcb5-40c1-8591-278e9d8e231b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sprites">
+      <UniqueIdentifier>{45cc7de1-7053-45cb-9ce2-58c35ddd1b9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files\Animators</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatorHolder.cpp">
+      <Filter>Source Files\Animators</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingPathAnimation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationFilm.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationFilmHolder.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapLoader.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashAnimation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameListAnimation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameRangeAnimation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingAnimation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollAnimation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="TickAnimation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController.cpp">
+      <Filter>Source Files\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="LatelyDestroyable.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTransitions.cpp">
+      <Filter>Source Files\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="TickAnimator.cpp">
+      <Filter>Source Files\Animators</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingAnimator.cpp">
+      <Filter>Source Files\Animators</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameRangeAnimator.cpp">
+      <Filter>Source Files\Animators</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionChecker.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatorFunctions.cpp">
+      <Filter>Source Files\Animators</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameListAnimator.cpp">
+      <Filter>Source Files\Animators</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingPathAnimator.cpp">
+      <Filter>Source Files\Animators</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioPlayer.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Header Files\Animators</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorHolder.h">
+      <Filter>Header Files\Animators</Filter>
+    </ClInclude>
+    <ClInclude Include="MOVE_DEFINES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFilm.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFilmHolder.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapLoader.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionChecker.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingPathAnimation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashAnimation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameListAnimation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameRangeAnimation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollAnimation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="TickAnimation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingAnimation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="TickAnimator.h">
+      <Filter>Header Files\Animators</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingAnimator.h">
+      <Filter>Header Files\Animators</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.h">
+      <Filter>Header Files\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTransitions.h">
+      <Filter>Header Files\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="LatelyDestroyable.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameRangeAnimator.h">
+      <Filter>Header Files\Animators</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorFunctions.h">
+      <Filter>Header Files\Animators</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameListAnimator.h">
+      <Filter>Header Files\Animators</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingPathAnimator.h">
+      <Filter>Header Files\Animators</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPlayer.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\SNES_MK1_sub0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

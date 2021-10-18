@@ -1,0 +1,17 @@
+MovingAnimator 	
+	Only moves
+	not  animation
+	
+	
+FrameRangeAnimator 	
+	Moves with constant speed
+	+ animation
+
+FrameListAnimator 	
+	
+	
+MovingPathAnimator 	
+	Predefines paths
+	
+FlashAnimator 
+	
